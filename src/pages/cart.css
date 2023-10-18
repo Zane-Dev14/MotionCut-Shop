@@ -1,0 +1,117 @@
+body {
+  background-image: url('https://i.pinimg.com/1200x/1d/99/07/1d9907455b19c770c095460cbdc05b7f.jpg'); /* Replace with your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartItem {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin: 20px 0;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #fceabb 0%, #f8b500 100%); /* Previous gold gradient background */
+}
+
+
+.cartTitle {
+  position: relative;
+  background-color: #F6E3C5; /* Muted gold or beige background color */
+  width: 90%;
+  max-width: 500px;
+  padding: 2em;
+  margin: 1.5em auto;
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.08), 0px 0px 0px 6px rgba(0, 0, 0, 0.08);
+}
+
+.cartTitle h1 {
+  text-align: center;
+  font-size: 40px; /* Reduced font size for better readability */
+  text-transform: uppercase;
+  color: #222;
+  letter-spacing: 1px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+.cartTitle h1 span {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #444;
+  word-spacing: 2px; /* Increased word spacing */
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.cartTitle h1 span:after,
+.cartTitle h1 span:before {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  height: 3px; /* Reduced line height for better appearance */
+  background-color: #f8f8f8;
+}
+
+.cartItem .description {
+  width: 100%;
+  font-size: 20px; /* Reduced font size for better readability */
+  color: #333;
+  padding: 10px 0;
+}
+
+.countHandler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: #333; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+/* Add this to your CSS file */
+.subtotal {
+  font-size: 18px;
+  color: #333; /* Text color for readability */
+  margin-bottom: 10px;
+  background-color: #f4f4f4; /* Light gray background color */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.checkout button:hover {
+  background-color: #555;
+}

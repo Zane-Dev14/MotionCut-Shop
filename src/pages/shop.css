@@ -1,0 +1,97 @@
+.shopTitle {
+  position: relative;
+  background-color: #F6E3C5; /* Muted gold or beige background color */
+  width: 90%;
+  max-width: 500px;
+  padding: 2em;
+  margin: 1.5em auto;
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.08), 0px 0px 0px 6px rgba(0, 0, 0, 0.08);
+  border-radius: 15px; /* Add border radius for stylish box */
+}
+
+.shopTitle h1 {
+  text-align: center;
+  font-size: 36px; /* Slightly smaller font size for elegance */
+  text-transform: uppercase;
+  color: #444; /* Darker text color for contrast */
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.shopTitle h1 span {
+  margin-top: 10px; /* Slightly more spacing */
+  font-size: 14px; /* Smaller font size for the subtitle */
+  color: #666; /* Slightly darker subtitle color */
+  word-spacing: 1px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.shopTitle h1 span:after,
+.shopTitle h1 span:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  height: 3px; /* Slightly smaller height for horizontal lines */
+  background-color: #f8f8f8;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.product {
+  border-radius: 15px;
+  width: calc(33.33% - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Slight spacing between items */
+  align-items: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for stylish box */
+
+  /* Stylish background gradient */
+  background: linear-gradient(135deg, #fceabb 0%, #f8b500 100%);
+}
+
+.im {
+  max-width: 50%; /* Slightly larger image size */
+  height: auto;
+  background: #F6E3C5;
+  margin: 0 auto;
+}
+
+.product .description {
+  text-align: center;
+  font-size: 18px; /* Adjusted font size for readability */
+  color: #333;
+  padding: 10px 0;
+}
+
+.product:hover {
+  transform: scale(1.03); /* Slight scaling on hover for an interactive effect */
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  background-color: #333;
+  color: white;
+  border: 2px solid #333; /* Matching button color */
+  min-width: 100px;
+  padding: 10px 20px; /* Adjusted button padding */
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.addToCartBttn:hover {
+  background-color: #555; /* Darker button color on hover */
+  cursor: pointer;
+}

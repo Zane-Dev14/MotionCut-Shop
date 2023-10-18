@@ -1,0 +1,40 @@
+/* Center-align the search bar container and its content */
+.search-bar {
+  display: flex;
+  align-items: center; /* Vertically center-align the content */
+  justify-content: center; /* Horizontally center-align the content */
+  margin: 7px;
+  position: relative;
+}
+
+/* Style the input field */
+.search-bar input[type="text"] {
+  width: 450px; /* Increase the width to make it longer */
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  padding: 5px 10px;
+}
+
+/* Create the magnifying glass icon using a pseudo-element */
+.search-bar input[type="text"]::before {
+  content: "\1F50D"; /* Unicode character for magnifying glass */
+  font-size: 24px;
+  margin-right: 10px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+/* Style the search button */
+.but {
+  background-color: #0074D9;
+  color: #f2f2f2;
+  height: 40px;
+  width: 70px;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}

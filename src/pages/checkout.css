@@ -1,0 +1,29 @@
+/* ThankYouMessage.css */
+body {
+    background-image: url('https://i.pinimg.com/1200x/1d/99/07/1d9907455b19c770c095460cbdc05b7f.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+.thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f0f0f0; A light background color */
+  }
+  
+  .thank-you-message {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Dark text color for readability */
+    background-color: #b5d7ff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px; /* Adjust the width as needed */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  }
+  
